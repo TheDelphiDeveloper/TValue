@@ -113,6 +113,7 @@ Var
 begin
  //popular Person
  SetLength(lPersonArray,1);
+
  lPersonArray[0]            := TPerson.Create;
  lPersonArray[0].FFirstName := 'S';
  lPersonArray[0].FLastName  := 'B';
@@ -123,6 +124,7 @@ begin
 
  //Popular Point
  SetLength(lPointArray,1);
+
  lPointArray[0]   := TPoint.Create;
  lPointArray[0].X := 50;
  lPointArray[0].Y := 60;

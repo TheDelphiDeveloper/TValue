@@ -14,7 +14,7 @@ object Form2: TForm2
   TextHeight = 15
   object BotaoTPerson: TButton
     Left = 622
-    Top = 135
+    Top = 140
     Width = 75
     Height = 25
     Caption = 'TPerson'
