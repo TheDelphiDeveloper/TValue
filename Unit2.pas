@@ -46,7 +46,6 @@ type
   private
     vPersonValue  : TValue;
     vPointValue   : TValue;
-
     procedure TodosSaoBemVindos(const AValue: TValue; AMemo: TMemo);
     { Private declarations }
   public
@@ -130,9 +129,5 @@ begin
 
  vPointValue := TValue.From<TPointArray>(lPointArray);
 end;
-
-
-
-
 
 end.
